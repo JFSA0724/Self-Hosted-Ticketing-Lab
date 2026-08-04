@@ -34,13 +34,14 @@ sudo apt install apache2 mariadb-server php libapache2-mod-php php-mysql -y
 Created dedicated MySQL database and user accounts for osTicket:
 \`\`\`sql
 CREATE DATABASE osticket;
-GRANT ALL PRIVILEGES ON osticket.* TO 'osticket_user'@'localhost' IDENTIFIED BY 'Password123!';
+GRANT ALL PRIVILEGES ON osticket.* TO '********'@'localhost' IDENTIFIED BY '*********';
 FLUSH PRIVILEGES;
 \`\`\`
 
 ### Step 3: Secure SMTP Routing
 Configured automated outbound notifications via Google SMTP (`smtp.gmail.com:587`) utilizing App Passwords and TLS encryption.
-<img width="960" height="720" alt="emailticket" src="https://github.com/user-attachments/assets/c5ed120e-d483-49d8-889e-cbe600284f8c" />
+<img width="960" height="720" alt="new scs" src="https://github.com/user-attachments/assets/65ae96cb-c7ef-4b71-b58d-3bd3a208a048" />
+
 
 ---
 

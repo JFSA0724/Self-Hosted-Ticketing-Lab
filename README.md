@@ -42,6 +42,7 @@ FLUSH PRIVILEGES;
 
 ### Step 3: Secure SMTP Routing
 Configured automated outbound notifications via Google SMTP (`smtp.gmail.com:587`) utilizing App Passwords and TLS encryption.
+<img width="960" height="720" alt="emailticket" src="https://github.com/user-attachments/assets/c5ed120e-d483-49d8-889e-cbe600284f8c" />
 
 ---
 

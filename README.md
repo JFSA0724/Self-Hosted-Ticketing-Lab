@@ -50,7 +50,7 @@ Configured automated outbound notifications via Google SMTP (`smtp.gmail.com:587
 ### Issue 1: SMTP Mail Authentication Failure
 * **Symptom:** osTicket threw a connection timeout error when sending test notifications over Port 25.
 * **Root Cause:** ISP blocking outbound traffic on standard SMTP Port 25.
-* **Resolution:** Reconfigured outgoing mail server settings to use **Port 587 with STARTTLS encryption** and an isolated App Password.
+* **Resolution:** Reconfigured outgoing mail server settings to use **Port 587** and an isolated App Password.
 
 ---
 
